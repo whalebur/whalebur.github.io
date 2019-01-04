@@ -1,0 +1,47 @@
+body,
+html {
+  
+  background-image: url(timecop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 105% 115%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 8px;
+}
+
+.btn {
+	margin: 0 auto;
+	display: block;
+	float: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 12px 16px;
+	color: white;
+	background-color: #F080BF;
+	border-color: #F080BF;
+	border-radius: 200px;
+	border-width: 2px;
+	cursor: pointer;
+}
+/*blue 79D8E1 pink F080BF*/
+.btn:hover {
+	background-color: #79D8E1;
+	border-color: #79D8E1;
+	color: white;
+}
